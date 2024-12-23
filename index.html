@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U. Abhilash Kumar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm <span>U. Abhilash Kumar</span></h1>
+            <p>A 3rd Year CSE AIML Student at MLRT with a passion for technology and problem-solving</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a third-year Computer Science Engineering (CSE) student specializing in Artificial Intelligence and Machine Learning (AIML) at Maturi Venkata Subba Rao (MVSR) Engineering College. My primary interests are in building intelligent systems, data science, and applying machine learning techniques to real-world problems. I love coding and experimenting with innovative projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, C++</li>
+            <li>Machine Learning: Scikit-Learn, TensorFlow, Keras</li>
+            <li>Data Analysis: Pandas, Numpy, Matplotlib</li>
+            <li>Web Development: HTML, CSS, JavaScript, Flask</li>
+            <li>Database Management: MySQL, MongoDB</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Diabetes Prediction using Machine Learning</h3>
+                <p>A machine learning model to predict whether a person has diabetes based on their health metrics using a variety of classification algorithms.</p>
+            </div>
+            <div class="project">
+                <h3>Homies</h3>
+                <p>A social networking app aimed at connecting people with similar interests, providing a platform for easy communication and community building.</p>
+            </div>
+            <div class="project">
+                <h3>Safety Helmet</h3>
+                <p>An IoT project that uses sensors to detect whether a person is wearing a helmet while riding a bike, helping improve road safety.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 U. Abhilash Kumar | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
